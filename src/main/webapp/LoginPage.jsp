@@ -7,7 +7,7 @@
 <p style="color:green;"><%= session.getAttribute("success") %></p>
 <% session.removeAttribute("success"); %>
 <% } %>
-<form action="#" method="post">
+<form action="login" method="post">
     <label>Tên đăng nhập: <input type="text" name="username" required></label><br><br>
     <label>Mật khẩu: <input type="password" name="password" required></label><br><br>
     <button type="submit">Đăng Nhập</button>

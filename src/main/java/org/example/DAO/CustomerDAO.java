@@ -12,12 +12,19 @@ import java.sql.*;
  * @author Admin
  */
 public class CustomerDAO {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/CinemaRegistration?useSSL=false&serverTimezone=UTC";
-    private static final String DB_USER = "root";
+    // Trong CustomerDAO.java
+    private static final String DB_URL =
+            "jdbc:mysql://localhost:3306/CinemaRegistration?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";    private static final String DB_USER = "root";
     private static final String DB_PASS = "126363abc";
 
     // Kết nối database
     private Connection getConnection() throws SQLException {
+        try {
+            
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+ new SQLException("MySQL JDBC Driver not found or incompatible. Check file 'mysql-connector-j-x.x.x.jar' in Tomcat/lib.", e);
+        }
         return DriverManager.getConnection(DB_URL, DB_USER, DB_PASS);
     }
 
@@ -53,7 +60,7 @@ public class CustomerDAO {
             pstmt.setString(3, customer.getFullName());
             pstmt.setString(4, customer.getEmail());
             pstmt.setString(5, customer.getPhone());
-            pstmt.setInt(6, customer.getCccd());
+            pstmt.setLong(6, customer.getCccd());
             pstmt.setInt(7, customer.getCodeCustomer());
 
             int rows = pstmt.executeUpdate();

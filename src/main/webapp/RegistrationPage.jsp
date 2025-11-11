@@ -12,7 +12,7 @@
         <label>Tên đăng nhập: <input type="text" name="username" required></label><br><br>
         <label>Mật khẩu: <input type="password" name="password" required></label><br><br>
         <label>Số điện thoại: <input type="text" name="phone"></label><br><br>
-        <label>CCCD: <input type="text" name="idCard"></label><br><br>
+        <label>CCCD: <input type="text" name="cccd"></label><br><br>
 
         <button type="submit">Đăng Ký</button>
     </form>

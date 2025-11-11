@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package org.example.servlet;
 
 import jakarta.servlet.ServletException;
@@ -32,21 +28,32 @@ public class RegisterServlet extends HttpServlet {
 
         // Lấy dữ liệu từ form
         String username = req.getParameter("username");
-        String password = req.getParameter("password"); // TODO: nên mã hóa trước khi lưu
+        String password = req.getParameter("password");
         String fullName = req.getParameter("fullName");
         String email = req.getParameter("email");
         String phone = req.getParameter("phone");
-        String cccdStr = req.getParameter("cccd");
-        String codeCustomerStr = req.getParameter("codeCustomer");
 
-        // Chuyển đổi kiểu dữ liệu
-        int cccd = 0;
+
+        String cccdStr = req.getParameter("cccd") != null ? req.getParameter("cccd").trim() : "";
+        // BỎ: String codeCustomerStr = req.getParameter("codeCustomer");
+
+
         int codeCustomer = 0;
+        // --------------------------------------------------
+
+
+        long cccd = 0;
+
+
         try {
-            cccd = Integer.parseInt(cccdStr);
-            codeCustomer = Integer.parseInt(codeCustomerStr);
+            if (cccdStr.isEmpty()) {
+                req.setAttribute("error", "Vui lòng nhập CCCD!");
+                req.getRequestDispatcher("/RegistrationPage.jsp").forward(req, resp);
+                return;
+            }
+            cccd = Long.parseLong(cccdStr);
         } catch (NumberFormatException e) {
-            req.setAttribute("error", "CCCD hoặc mã khách hàng không hợp lệ!");
+            req.setAttribute("error", "CCCD phải là chữ số!");
             req.getRequestDispatcher("/RegistrationPage.jsp").forward(req, resp);
             return;
         }
@@ -62,7 +69,7 @@ public class RegisterServlet extends HttpServlet {
                 cccd,
                 codeCustomer
         ) {
-            // Customer là abstract nên ta có thể tạo một instance ẩn danh
+
         };
 
         // Kiểm tra email tồn tại

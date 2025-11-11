@@ -15,12 +15,13 @@ public abstract class Customer {
     private String email;
     private String phone;
     private int id;
-    private int cccd;
+    private long cccd;
     private int codeCustomer;
 
     public Customer() {}
 
-    public Customer(String username, String password, String fullName, String email, String phone, int id, int cccd, int codeCustomer) {
+
+    public Customer(String username, String password, String fullName, String email, String phone, int id, long cccd, int codeCustomer) { // <--- ĐÃ SỬA
         this.username = username;
         this.password = password;
         this.fullName = fullName;
@@ -79,11 +80,13 @@ public abstract class Customer {
         this.id = id;
     }
 
-    public int getCccd() {
+
+    public long getCccd() { // <--- ĐÃ SỬA
         return cccd;
     }
 
-    public void setCccd(int cccd) {
+
+    public void setCccd(long cccd) { // <--- ĐÃ SỬA
         this.cccd = cccd;
     }
 
