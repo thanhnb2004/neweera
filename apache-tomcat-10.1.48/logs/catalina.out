@@ -1,0 +1,68 @@
+10-Nov-2025 23:36:19.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.48
+10-Nov-2025 23:36:19.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:33:56 UTC
+10-Nov-2025 23:36:19.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.48.0
+10-Nov-2025 23:36:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Nov-2025 23:36:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.5
+10-Nov-2025 23:36:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+10-Nov-2025 23:36:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home
+10-Nov-2025 23:36:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1
+10-Nov-2025 23:36:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+10-Nov-2025 23:36:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48
+10-Nov-2025 23:36:19.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48
+10-Nov-2025 23:36:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/conf/logging.properties
+10-Nov-2025 23:36:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2025 23:36:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Nov-2025 23:36:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Nov-2025 23:36:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+10-Nov-2025 23:36:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Nov-2025 23:36:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2025 23:36:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+10-Nov-2025 23:36:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2025 23:36:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2025 23:36:19.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2025 23:36:19.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2025 23:36:19.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48
+10-Nov-2025 23:36:19.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48
+10-Nov-2025 23:36:19.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+10-Nov-2025 23:36:19.947 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/ducluuquang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2025 23:36:20.122 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Nov-2025 23:36:20.137 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [293] milliseconds
+10-Nov-2025 23:36:20.153 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2025 23:36:20.153 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.48]
+10-Nov-2025 23:36:20.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/webapps/docs]
+10-Nov-2025 23:36:20.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/webapps/docs] has finished in [111] ms
+10-Nov-2025 23:36:20.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/webapps/manager]
+10-Nov-2025 23:36:20.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/webapps/manager] has finished in [13] ms
+10-Nov-2025 23:36:20.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/webapps/examples]
+10-Nov-2025 23:36:20.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/webapps/examples] has finished in [98] ms
+10-Nov-2025 23:36:20.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/webapps/ROOT]
+10-Nov-2025 23:36:20.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/webapps/ROOT] has finished in [6] ms
+10-Nov-2025 23:36:20.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/webapps/host-manager]
+10-Nov-2025 23:36:20.392 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/ducluuquang/Documents/BTL1/CinemaRegistration/apache-tomcat-10.1.48/webapps/host-manager] has finished in [7] ms
+10-Nov-2025 23:36:20.394 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Nov-2025 23:36:20.399 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [261] milliseconds
+10-Nov-2025 23:36:23.742 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+10-Nov-2025 23:36:53.980 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+10-Nov-2025 23:37:02.967 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+10-Nov-2025 23:37:38.632 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+10-Nov-2025 23:37:54.362 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+10-Nov-2025 23:38:40.573 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 00:21:28.833 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 00:27:30.354 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 01:08:13.903 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 14:10:50.200 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 14:11:35.675 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 16:52:18.488 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 16:59:59.065 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:11:17.254 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:14:53.367 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:16:22.044 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:20:01.536 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:24:12.132 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:36:20.875 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:50:28.929 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received

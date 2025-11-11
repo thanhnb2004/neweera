@@ -1,0 +1,14 @@
+11-Nov-2025 00:21:28.833 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 00:27:30.354 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 01:08:13.903 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 14:10:50.200 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 14:11:35.675 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 16:52:18.488 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 16:59:59.065 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:11:17.254 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:14:53.367 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:16:22.044 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:20:01.536 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:24:12.132 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:36:20.875 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+11-Nov-2025 17:50:28.929 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
